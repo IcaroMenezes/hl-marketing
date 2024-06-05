@@ -16,13 +16,17 @@ body {
     justify-items: center;
 }
 .initial-banner video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    object-fit: fill;
-    background-repeat: repeat-y;
-    width: 100%;
-    filter: brightness(40%)
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    filter: opacity(0.3);
 }
 .initial-banner .content {
     position: relative;
@@ -43,7 +47,7 @@ body {
     color: #ffff;
 }
 .initial-banner img{
-    margin-top: 100px;
+    margin-top: 80px;
     min-width: 150px;
     max-width: 170px;
 }
