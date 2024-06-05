@@ -57,7 +57,7 @@ body {
 }
 .initial-banner button{
     color: white;
-    background-color: blueviolet;
+    background-color: rgb(58, 7, 105);
     padding: 8px 16px;
     font-size: 1.5em;
     margin-top: 8px;
@@ -155,7 +155,7 @@ body {
     align-items: center;
     text-align: center;
     padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.087);
 }
 
 /* Responsividade */
@@ -174,7 +174,7 @@ body {
     text-align: center;
     margin: 0;
     font-size: 1.5em;
-    color: blueviolet;
+    color: rgb(58, 7, 105);
 }
 .services{
     width: 100%;
@@ -183,7 +183,7 @@ body {
     justify-items: center;
     padding-top: 8px;
     position: relative;
-    border-top: solid 1px rgb(196, 249, 255);
+    border-top: solid 1px rgb(10, 6, 83);
 }
 .services h2{
     margin: 0;
@@ -196,11 +196,15 @@ body {
 }
 .list{
     width: 100%;
-    padding: 8px;
+    margin: 8px;
     text-align: center;
+    background: rgb(14,0,255);
+    background: linear-gradient(24deg, rgba(14,0,255,0.1250875350140056) 0%, rgba(255,255,255,0) 88%);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.087);
 }
 .block {
     margin: 0 auto;
+    justify-content: space-around;
     display: flex;
 }
 
