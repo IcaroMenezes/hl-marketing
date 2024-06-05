@@ -17,3 +17,10 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+function goToBtn(){
+    window.scrollTo({
+        top: 155,
+        behavior: 'smooth'
+    });
+}
