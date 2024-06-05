@@ -267,6 +267,7 @@ body {
     margin-top: auto;
     padding: 0.5rem  1.5rem;
     font-weight: 600;
+    font-size: 1.2em;
     background-color: blueviolet;
     color: rgb(255, 255, 255);
     width: fit-content;
