@@ -1,5 +1,6 @@
 function whatsapp(){
-    window.open('https://wa.me/5511947384020?text=Ol%C3%A1%21+Eu+gostaria+de+agendar+uma+reuni%C3%A3o+%21')
+    window.open('https://wa.me/5511990138393?text=Ol%C3%A1%21+Eu+gostaria+de+agendar+uma+reuni%C3%A3o+%21')
+    gtag('event', 'conversion', {'send_to': 'AW-16617908255/laqzCNOSxLwZEJ_QhPQ9'});
 }
 
 document.addEventListener('DOMContentLoaded', function() {
